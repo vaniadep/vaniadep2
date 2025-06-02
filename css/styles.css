@@ -149,6 +149,62 @@ nav li:nth-child(odd) a:hover {
 
 
 /* Адаптивность */
+@media (max-width: 320px) {
+   .menu-list {
+    height: auto;
+    width: 200px;
+    padding: 40px 0 30px;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  .menu-item {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+  }
+}
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+
+@media (max-width: 480px) {
+   .menu-list {
+    height: auto;
+    width: 200px;
+    padding: 40px 0 30px;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  .menu-item {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+  }
+}
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+
 @media (max-width: 768px) {
    .menu-list {
     height: auto;
@@ -205,6 +261,7 @@ nav li:nth-child(odd) a:hover {
   button {
     width: 100%;
   }
+
 
 
 
