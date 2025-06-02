@@ -168,8 +168,6 @@ nav li:nth-child(odd) a:hover {
   }
 }
 
-
-
 @media (max-width: 480px) {
    .menu-list {
     height: auto;
@@ -208,7 +206,6 @@ nav li:nth-child(odd) a:hover {
     transform: translateX(0);
   }
 }
- 
 
 
 @media (max-width: 480px) {
@@ -238,7 +235,6 @@ nav li:nth-child(odd) a:hover {
   button {
     width: 100%;
   }
-
 
 
 
