@@ -265,24 +265,3 @@ nav li:nth-child(odd) a:hover {
 .burger-checkbox:checked ~ .menu-list {
   transform: translateX(-60%);
 }
-
-
-@media (max-width: 480px) {
-  .menu-list {
-    height: auto;
-    width: 200px;
-    padding: 40px 0 30px;
-    max-height: 60vh;
-    overflow-y: auto;
-  }
-
-  .menu-item {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-
-  .burger-checkbox:checked ~ .menu-list {
-    transform: translateX(0);
-  }
-}
-
