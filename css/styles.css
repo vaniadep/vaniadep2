@@ -168,13 +168,6 @@ nav li:nth-child(odd) a:hover {
   }
 }
 
-  nav ul {
-    flex-direction: column;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
 
 
 @media (max-width: 480px) {
@@ -196,14 +189,6 @@ nav li:nth-child(odd) a:hover {
   }
 }
 
-  nav ul {
-    flex-direction: column;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
 
 @media (max-width: 768px) {
    .menu-list {
@@ -224,14 +209,6 @@ nav li:nth-child(odd) a:hover {
   }
 }
  
-  nav ul {
-    flex-direction: column;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
 
 
 @media (max-width: 480px) {
